@@ -1,0 +1,90 @@
+body {
+  font-family:'Georgia','times new roman', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+/* Main Content Section */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Text Section */
+.text-section {
+  flex: 2; /* Adjusts width for the text */
+}
+/* Image Section */
+.image-section {
+  flex: 2; /* Adjusts width for the image */
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional for rounded corners */
+}
+body{
+    font-family:'Georgia','times new roman', serif;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    display:flex;
+    gap:20px;
+    justify-content:space-between;
+    padding:20px;
+    align-items: space-evenly;
+}
+
+.card{
+    width:250px;
+    margin:15px;
+    background-color: white;
+    border:1px solid #ddd;
+    border-radius:8px;
+    text-align:center;
+    padding:10px;
+    transition:transform 0.3s ease;
+}
+.card:hover {
+transform: scale(1.05);
+}
+.card img {
+width: 100%;
+height: auto;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+.card h3 {
+font-size: 18px;
+margin: 10px 0;
+}
+.card p {
+font-size: 14px;
+color: #666;
+margin: 0 0 10px;
+}
+.card .price {
+font-size: 16px;
+font-weight: bold;
+margin: 10px 0;
+color: #000;
+}
+
+
+
+/* General Reset */

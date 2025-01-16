@@ -1,0 +1,73 @@
+/* For header's overall color */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  #C1924F;
+    padding: 0px 20px;
+    background-color:#03224B;
+}
+
+/*for the logo in header*/
+.header .logo img {
+    width: 120px;
+    height: auto;
+    margin-left: 40px;
+}
+/*for the links and hovering effect in navigation*/
+.header .nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia','times new roman', serif;
+}
+
+/* Banner container */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia','times new roman', serif;
+} */
+
+.header-image {
+    width: 100%; /* Makes the banner span the full width */
+    overflow: hidden; /* Prevents content from spilling out */
+}
+
+.header-image img {
+    width: 100%; /* Ensures the banner scales to the full width */
+    /* height: auto; /* Maintains aspect ratio */
+    /* max-height: 400px; Sets a maximum height for the banner */ 
+    object-fit : cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Removes extra whitespace from inline elements */
+}
+
+/*h1 heading design*/
+h1{
+    text-align: center;
+    font-family: 'Georgia','times new roman', serif;
+    font-weight: bold;
+}
+.watch img {
+    width: 100%;
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .watch .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  }
+ 
